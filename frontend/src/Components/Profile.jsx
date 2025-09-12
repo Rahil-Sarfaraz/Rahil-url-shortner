@@ -6,7 +6,7 @@ import { Center, Text } from '@mantine/core';
 const obj = new Service();
 
 
-export default function Profil() {
+export  function Profil() {
 
 
    const [user, setUser] = useState({})
