@@ -18,6 +18,8 @@ function App() {
             <Route path='/profile' element={<Profile/>}/>
             <Route element={<PrivateRoute/>}>
             <Route path='/url/shortener' element={<UrlShortener/>}/>
+             {/* <Route path="/url/list" element={<MyUrl/>}/> */}
+
 
             </Route>
         </Routes>
