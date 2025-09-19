@@ -1,8 +1,7 @@
 import { Container, TextInput } from '@mantine/core'
 import {UrlForm} from '../Components/UrlForm.jsx'
 import { useState } from 'react';
-import UrlResponse from '../Components/UrlResponse.jsx';
-
+import { UrlResponse } from '../Components/UrlResponse.jsx';
 
 export function UrlShortener() {
   const [ response, setResponse ] = useState(null);

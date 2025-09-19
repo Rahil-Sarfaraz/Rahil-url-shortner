@@ -4,7 +4,7 @@ import {QRCodeSVG} from "qrcode.react"
 
 const obj = new Service();
 
-export default UrlResponse = (props) =>{
+export const UrlResponse = (props) =>{
    const surl = obj.getBaseURL() + '/api/s/' + props?.response?.shortCode;
    console.log("THis is surl " + surl);
    return (
